@@ -47,9 +47,6 @@ def gemma_chat(message, history):
     
     # clean the response
     response_cleaned = re.split("model", response)
-    
-    # update the history
-    history.append([message, response_cleaned[1]])    
 
     # return the response
     return response_cleaned[1]
