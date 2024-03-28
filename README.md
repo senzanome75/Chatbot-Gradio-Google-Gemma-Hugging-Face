@@ -14,7 +14,7 @@ I mixed **example code** found on both Hugging Face and Gradio at the following 
 
 The dependencies are:
 - pip install python-dotenv
-- pip install gradio
+- pip install https://gradio-builds.s3.amazonaws.com/b9dbcf7aa22fe9a19edbc0c52d46a973d8d57ad4/gradio-4.24.0-py3-none-any.whl
 - pip install transformers
 - pip3 install torch --index-url https://download.pytorch.org/whl/cu121
 - pip install accelerate
