@@ -18,3 +18,7 @@ The dependencies are:
 - pip install transformers
 - pip3 install torch --index-url https://download.pytorch.org/whl/cu121
 - pip install accelerate
+
+***
+
+For more insights please see: https://ingegnerealbano.com/chatbot-in-python-con-gradio-e-google-gemma-sfruttando-hugging-face/
