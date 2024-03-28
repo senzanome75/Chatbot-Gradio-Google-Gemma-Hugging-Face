@@ -20,7 +20,6 @@ token = os.getenv('TOKEN')
 # set some stuffs
 model_id = "google/gemma-2b-it"
 dtype = torch.bfloat16
-history = list()
 
 # start with chat
 def gemma_chat(message, history):
